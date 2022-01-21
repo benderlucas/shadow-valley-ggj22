@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Controller : MonoBehaviour
+public class PlayerController : MonoBehaviour
 {
     public float speed;
     public float rotationSpeed;
@@ -10,6 +10,7 @@ public class Controller : MonoBehaviour
     public float jumpForce = 2.0f;
     bool isGrounded;
     Rigidbody rb;
+    public GameObject Controller;
 
     void Start(){
         rb = GetComponent<Rigidbody>();
@@ -18,6 +19,13 @@ public class Controller : MonoBehaviour
 
     void OnCollisionStay(){
         isGrounded = true;
+    }
+
+    private void OnTriggerEnter(Collider col) {
+        if(col.gameObject.tag == "Coin"){
+            Controller.GetComponent<MoneySystem>().actualMoney = Controller.GetComponent<MoneySystem>().actualMoney + col.GetComponent<CoinValue>().value;
+            Destroy(col.gameObject);
+        }
     }
 
     void OnCollisionExit(){

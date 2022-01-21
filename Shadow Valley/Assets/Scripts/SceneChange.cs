@@ -7,13 +7,12 @@ public class SceneChange : MonoBehaviour
     public bool sceneAliveActive = true;
     public GameObject[] AliveBob;
     public GameObject[] DeadBob;
-    public GameObject Life;
 
     void Update()
     {
         if(Input.GetButtonDown("Fire1")){
             sceneAliveActive = !sceneAliveActive;
-            Life.GetComponent<LifeSystem>().actualLife = Life.GetComponent<LifeSystem>().actualLife - 5;
+            GetComponent<LifeSystem>().actualLife = GetComponent<LifeSystem>().actualLife - Random.Range(3,8);
         }
 
         if (sceneAliveActive){

@@ -8,6 +8,7 @@ public class LifeSystem : MonoBehaviour
     public int maxLife;
     public int actualLife;
     public GameObject LifeBar;
+    public GameObject LifeText;
 
     void Start()
     {
@@ -19,8 +20,10 @@ public class LifeSystem : MonoBehaviour
     void Update()
     {
         LifeBar.GetComponent<Slider>().value = actualLife;
+        LifeText.GetComponent<TMPro.TextMeshProUGUI>().text = actualLife.ToString();
 
         if(actualLife <= 0){
+            LifeText.GetComponent<TMPro.TextMeshProUGUI>().text = "0";
             this.GetComponent<GameStates>().GameOver();
         }
     }
