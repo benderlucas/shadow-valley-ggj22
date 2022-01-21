@@ -5,27 +5,39 @@ using UnityEngine;
 public class SceneChange : MonoBehaviour
 {
     public bool sceneAliveActive = true;
-    public GameObject Scene1;
-    public GameObject Scene2;
-    public GameObject Bob;
-    public GameObject ShadowBob;
+    public GameObject[] AliveBob;
+    public GameObject[] DeadBob;
+    public GameObject Life;
 
     void Update()
     {
         if(Input.GetButtonDown("Fire1")){
             sceneAliveActive = !sceneAliveActive;
+            Life.GetComponent<LifeSystem>().actualLife = Life.GetComponent<LifeSystem>().actualLife - 5;
         }
 
         if (sceneAliveActive){
-            Scene1.SetActive(true);
-            Scene2.SetActive(false);
-            Bob.SetActive(true);
-            ShadowBob.SetActive(false);
+            AliveBobActive();
         } else {
-            Scene1.SetActive(false);
-            Scene2.SetActive(true);
-            Bob.SetActive(false);
-            ShadowBob.SetActive(true);
+            DeadBobActive();
         }
+    }
+
+    void AliveBobActive(){
+            foreach(GameObject obj in AliveBob) {
+                obj.SetActive(true);
+            }
+            foreach(GameObject obj in DeadBob) {
+                obj.SetActive(false);
+            }
+    }
+
+    void DeadBobActive(){
+            foreach(GameObject obj in AliveBob) {
+                obj.SetActive(false);
+            }
+            foreach(GameObject obj in DeadBob) {
+                obj.SetActive(true);
+            }
     }
 }
