@@ -415,3 +415,855 @@ Received Import Request.
   path: Assets/Materials/Coin.mat
   artifactKey: Guid(b1e9c8dbd3242e74bb53f22ed1043591) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/Materials/Coin.mat using Guid(b1e9c8dbd3242e74bb53f22ed1043591) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e67ecdc35714251cdae91dbe8e8f189') in 0.077685 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1814.849719 seconds.
+  path: Assets/Materials/LitTest.mat
+  artifactKey: Guid(b946e03c7ee8ffb48a80d6534abc7143) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/LitTest.mat using Guid(b946e03c7ee8ffb48a80d6534abc7143) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7632762f650374744ffa5fdaf068fa49') in 0.081842 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 417.430070 seconds.
+  path: Assets/Materials/LitTest.mat
+  artifactKey: Guid(b946e03c7ee8ffb48a80d6534abc7143) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/LitTest.mat using Guid(b946e03c7ee8ffb48a80d6534abc7143) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '195d9f8c2becc0b13073135385e8c93c') in 4.606993 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.013156 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\lucas\OneDrive\Documentos\Projetos Unity Notebook\shadow-valley-ggj22\Shadow Valley\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\lucas\OneDrive\Documentos\Projetos Unity Notebook\shadow-valley-ggj22\Shadow Valley\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.93 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.572 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2574ms)
+		BeginReloadAssembly (636ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (161ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (208ms)
+		EndReloadAssembly (1723ms)
+			LoadAssemblies (246ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (453ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (58ms)
+			SetupLoadedEditorAssemblies (842ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (21ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (144ms)
+				ProcessInitializeOnLoadAttributes (540ms)
+				ProcessInitializeOnLoadMethodAttributes (121ms)
+				AfterProcessingInitializeOnLoad (14ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (90ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.15 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4757 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 36 unused Assets / (1.0 MB). Loaded Objects now: 5535.
+Memory consumption went from 199.5 MB to 198.4 MB.
+Total: 6.021400 ms (FindLiveObjects: 0.477600 ms CreateObjectMapping: 0.787700 ms MarkObjects: 3.879200 ms  DeleteObjects: 0.874300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 62.337908 seconds.
+  path: Assets/JMO Assets/MatCap Shaders
+  artifactKey: Guid(1576d9087a41d6a4a823f0c4acc7a722) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JMO Assets/MatCap Shaders using Guid(1576d9087a41d6a4a823f0c4acc7a722) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28b8a6b04c2a975b1d7793a48946e457') in 0.024463 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.736740 seconds.
+  path: Assets/JMO Assets/MatCap Shaders/Shaders
+  artifactKey: Guid(c9f68a5ff3ebc5d47afc23c8eb7a763a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JMO Assets/MatCap Shaders/Shaders using Guid(c9f68a5ff3ebc5d47afc23c8eb7a763a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02d74b350e1914633f0665547b60101e') in 0.026586 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.773203 seconds.
+  path: Assets/JMO Assets/MatCap Shaders/Shaders/MatCap_TextureMult_Bumped.shader
+  artifactKey: Guid(0a5ee393eb41d614ebbcc13355b73393) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JMO Assets/MatCap Shaders/Shaders/MatCap_TextureMult_Bumped.shader using Guid(0a5ee393eb41d614ebbcc13355b73393) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '635322fc79a8daa011b9873b69d4552d') in 0.082330 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 46.284695 seconds.
+  path: Assets/JMO Assets/MatCap Shaders/Textures/MaCrea/MaCrea_1.png
+  artifactKey: Guid(a67746ccf89fdad44953182256f56521) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JMO Assets/MatCap Shaders/Textures/MaCrea/MaCrea_1.png using Guid(a67746ccf89fdad44953182256f56521) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4766adfd33c53ee9fbcb8869d30185e') in 0.118130 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/JMO Assets/MatCap Shaders/Textures/MaCrea/MaCrea_2.png
+  artifactKey: Guid(00226acacb342054fbcc4964a3850108) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JMO Assets/MatCap Shaders/Textures/MaCrea/MaCrea_2.png using Guid(00226acacb342054fbcc4964a3850108) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52bdf95eb645f0665076ec52ec20fdde') in 0.065629 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/JMO Assets/MatCap Shaders/Textures/MaCrea/MaCrea_4.png
+  artifactKey: Guid(bc375fb05aff7e34abd4f3bce7e85de2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JMO Assets/MatCap Shaders/Textures/MaCrea/MaCrea_4.png using Guid(bc375fb05aff7e34abd4f3bce7e85de2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64ac0f97ae2b3b727cb90a593b28c50d') in 0.038324 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/JMO Assets/MatCap Shaders/Textures/MaCrea/MaCrea_3.png
+  artifactKey: Guid(8c1eeffac5010264fb015922306d622a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JMO Assets/MatCap Shaders/Textures/MaCrea/MaCrea_3.png using Guid(8c1eeffac5010264fb015922306d622a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f4025d3cb64abb72dccd57e82243e4a') in 0.042320 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.707172 seconds.
+  path: Assets/JMO Assets/MatCap Shaders/Textures/MaCrea/MaCrea_5.png
+  artifactKey: Guid(a24bbcd82b22c6e46a6723e270e807fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JMO Assets/MatCap Shaders/Textures/MaCrea/MaCrea_5.png using Guid(a24bbcd82b22c6e46a6723e270e807fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4877bfb221efeb9903afd9179e55428') in 0.058009 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/JMO Assets/MatCap Shaders/Textures/MaCrea/MaCrea_6.png
+  artifactKey: Guid(9db6cd28fff160847b0d71e5b77c9468) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JMO Assets/MatCap Shaders/Textures/MaCrea/MaCrea_6.png using Guid(9db6cd28fff160847b0d71e5b77c9468) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5162df611e2ff82d4693498a1499b5cc') in 0.026490 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.266952 seconds.
+  path: Assets/JMO Assets/MatCap Shaders/Textures/MaCrea/MaCrea_7.png
+  artifactKey: Guid(f1ee56bec2031554ba5895ce48612ddc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JMO Assets/MatCap Shaders/Textures/MaCrea/MaCrea_7.png using Guid(f1ee56bec2031554ba5895ce48612ddc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ea3703fa4844ea1e45de99399435152') in 0.045704 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/JMO Assets/MatCap Shaders/Textures/MaCrea/MaCrea_8.png
+  artifactKey: Guid(4adab500608aea842bbc4571bbdb9081) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JMO Assets/MatCap Shaders/Textures/MaCrea/MaCrea_8.png using Guid(4adab500608aea842bbc4571bbdb9081) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8282dcdb5d77e8b7dd34947b3cb53ccd') in 0.062352 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.923784 seconds.
+  path: Assets/JMO Assets/MatCap Shaders/Textures/MaCrea/MaCrea_9.png
+  artifactKey: Guid(d42ca6613525ad44da9904930260cdc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JMO Assets/MatCap Shaders/Textures/MaCrea/MaCrea_9.png using Guid(d42ca6613525ad44da9904930260cdc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b831835004c09b7edf83e11d26d1bb78') in 0.043410 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/JMO Assets/MatCap Shaders/Textures/MaCrea/MaCrea_10.png
+  artifactKey: Guid(fc83aa10b2d1264459fc18fe1ea152d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JMO Assets/MatCap Shaders/Textures/MaCrea/MaCrea_10.png using Guid(fc83aa10b2d1264459fc18fe1ea152d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a79d083c32770b84712e91a3fb4fed9') in 0.021162 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.332434 seconds.
+  path: Assets/JMO Assets/MatCap Shaders/Textures/BenSimonds/MatCap_BS1.jpg
+  artifactKey: Guid(7d8493307988fb64d810a1d2d47d2c70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JMO Assets/MatCap Shaders/Textures/BenSimonds/MatCap_BS1.jpg using Guid(7d8493307988fb64d810a1d2d47d2c70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ded08a732d4a95871af52aedfa7aa6f3') in 0.038583 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/JMO Assets/MatCap Shaders/Textures/BenSimonds/MatCap_BS2.jpg
+  artifactKey: Guid(08f995fc44e29da4d9327759f69a63df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JMO Assets/MatCap Shaders/Textures/BenSimonds/MatCap_BS2.jpg using Guid(08f995fc44e29da4d9327759f69a63df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb64ef89aa61b57ff607791cacc3569a') in 0.028541 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000180 seconds.
+  path: Assets/JMO Assets/MatCap Shaders/Textures/BenSimonds/MatCap_BS3.jpg
+  artifactKey: Guid(fb8bf055049cc8b4696e6e9653f4f239) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JMO Assets/MatCap Shaders/Textures/BenSimonds/MatCap_BS3.jpg using Guid(fb8bf055049cc8b4696e6e9653f4f239) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56d20fff90c2dd1be2d8ec5771569a79') in 0.041976 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000273 seconds.
+  path: Assets/JMO Assets/MatCap Shaders/Textures/BenSimonds/MatCap_BS4.jpg
+  artifactKey: Guid(5a049a5395c90154dbc3d1cc025c2f59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JMO Assets/MatCap Shaders/Textures/BenSimonds/MatCap_BS4.jpg using Guid(5a049a5395c90154dbc3d1cc025c2f59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b983fea596c8f2f0e71c3e73ca6cf69a') in 0.047861 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.422262 seconds.
+  path: Assets/JMO Assets/MatCap Shaders/Textures/BenSimonds/MatCap_BS5.jpg
+  artifactKey: Guid(cae44471c0e978742985c5d5402fe9da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JMO Assets/MatCap Shaders/Textures/BenSimonds/MatCap_BS5.jpg using Guid(cae44471c0e978742985c5d5402fe9da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bbe0c0c8601b8bcd3ed9c76ee03eb557') in 0.026368 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/JMO Assets/MatCap Shaders/Textures/BenSimonds/MatCap_BS6.jpg
+  artifactKey: Guid(04173e7d552d5854ebf8b2080ac3eb27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JMO Assets/MatCap Shaders/Textures/BenSimonds/MatCap_BS6.jpg using Guid(04173e7d552d5854ebf8b2080ac3eb27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d73279c4f8bdf4828e4cbbc0f1ea63b') in 0.023213 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.459857 seconds.
+  path: Assets/JMO Assets/MatCap Shaders/Textures/BenSimonds/MatCap_BS7.jpg
+  artifactKey: Guid(a30cfa55ee9c5dd41aa0de318e9e8367) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JMO Assets/MatCap Shaders/Textures/BenSimonds/MatCap_BS7.jpg using Guid(a30cfa55ee9c5dd41aa0de318e9e8367) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9b2a39eff670cdc20317ed529840925') in 0.021598 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/JMO Assets/MatCap Shaders/Textures/Additive/MatCap_GhostContour.png
+  artifactKey: Guid(289d04b844d7b7b49a8d707c7566c1b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JMO Assets/MatCap Shaders/Textures/Additive/MatCap_GhostContour.png using Guid(289d04b844d7b7b49a8d707c7566c1b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33f464c1ad3bd10f6c24534587499a61') in 0.018580 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.484544 seconds.
+  path: Assets/JMO Assets/MatCap Shaders/Textures/Additive/MatCap_GhostContour2.png
+  artifactKey: Guid(0a39f3c44ccff204fbf1b2c21ece08d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JMO Assets/MatCap Shaders/Textures/Additive/MatCap_GhostContour2.png using Guid(0a39f3c44ccff204fbf1b2c21ece08d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0dc2980d0641df081eb74465b2881525') in 0.030978 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/JMO Assets/MatCap Shaders/Textures/Additive/MatCap_SolidContour.png
+  artifactKey: Guid(1f3167055dbdd4843b5f300708bb8cf7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JMO Assets/MatCap Shaders/Textures/Additive/MatCap_SolidContour.png using Guid(1f3167055dbdd4843b5f300708bb8cf7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c17fe441b0e182119973eec077753c4f') in 0.057842 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/JMO Assets/MatCap Shaders/Textures/Toon/MatCap_Toon.png
+  artifactKey: Guid(b4a39e223b86cf24d82d7c34e6366131) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JMO Assets/MatCap Shaders/Textures/Toon/MatCap_Toon.png using Guid(b4a39e223b86cf24d82d7c34e6366131) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c806f0952c2c218d78dfa50e978ab19') in 0.040306 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/JMO Assets/MatCap Shaders/Textures/Toon/MatCap_Toon2.png
+  artifactKey: Guid(8320987374e1fb544879fc552b145948) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JMO Assets/MatCap Shaders/Textures/Toon/MatCap_Toon2.png using Guid(8320987374e1fb544879fc552b145948) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a032a7b630a28a3a24ac741fe492d04') in 0.035835 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.540067 seconds.
+  path: Assets/JMO Assets/MatCap Shaders/Textures/Toon/MatCap_Toon3.png
+  artifactKey: Guid(daa6a0ce484bc1147ba58a37cd90b5da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JMO Assets/MatCap Shaders/Textures/Toon/MatCap_Toon3.png using Guid(daa6a0ce484bc1147ba58a37cd90b5da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bbccea70bd5d7e72fd1e7279119b319a') in 0.027565 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/JMO Assets/MatCap Shaders/Textures/Toon/MatCap_ToonPlastic.png
+  artifactKey: Guid(30afc2f4d0b96234c8caac7df966cb99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JMO Assets/MatCap Shaders/Textures/Toon/MatCap_ToonPlastic.png using Guid(30afc2f4d0b96234c8caac7df966cb99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c793712b58ca6bea044dd0e9d68f2c2') in 0.066336 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.035990 seconds.
+  path: Assets/JMO Assets/MatCap Shaders/Textures/Toon/MatCap_ToonSoft.png
+  artifactKey: Guid(2034f6656393e9a4a811b48a45f12ddc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JMO Assets/MatCap Shaders/Textures/Toon/MatCap_ToonSoft.png using Guid(2034f6656393e9a4a811b48a45f12ddc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75bcec087d378435e111e90b5d302695') in 0.035182 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/JMO Assets/MatCap Shaders/Textures/Creator/MC Additive 2.png
+  artifactKey: Guid(65282ed7102afc4489337b34cbf9bbd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JMO Assets/MatCap Shaders/Textures/Creator/MC Additive 2.png using Guid(65282ed7102afc4489337b34cbf9bbd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a24c6885de7727424aa85405e6830635') in 0.050193 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000138 seconds.
+  path: Assets/JMO Assets/MatCap Shaders/Textures/Creator/MC 4 Colors.png
+  artifactKey: Guid(dde49ae1cadcc4848a8978c7bf8d5671) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JMO Assets/MatCap Shaders/Textures/Creator/MC 4 Colors.png using Guid(dde49ae1cadcc4848a8978c7bf8d5671) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e45667fdbfb0731f8954e1350a647117') in 0.033442 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/JMO Assets/MatCap Shaders/Textures/Creator/MC Additive 3.png
+  artifactKey: Guid(999c0a8caecef6e4b997f93a5af758bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JMO Assets/MatCap Shaders/Textures/Creator/MC Additive 3.png using Guid(999c0a8caecef6e4b997f93a5af758bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d3557d7a9e1171cbd1ff4b22006abdb') in 0.036042 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000411 seconds.
+  path: Assets/JMO Assets/MatCap Shaders/Textures/Creator/MC Backlit.png
+  artifactKey: Guid(416c7f674f095e24da39aa14c96202a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JMO Assets/MatCap Shaders/Textures/Creator/MC Backlit.png using Guid(416c7f674f095e24da39aa14c96202a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5eee3a75e399b867ae51a264f27e7b6') in 0.033970 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/JMO Assets/MatCap Shaders/Textures/Creator/MC Basic 1.png
+  artifactKey: Guid(330811522a36c0e41bd3db6f76848d27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JMO Assets/MatCap Shaders/Textures/Creator/MC Basic 1.png using Guid(330811522a36c0e41bd3db6f76848d27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6dc1582ec83c794491e5eba7a9ae94d0') in 0.035421 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/JMO Assets/MatCap Shaders/Textures/Creator/MC Backlit 2.png
+  artifactKey: Guid(e490af91a9f72504b87e28701a1425af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JMO Assets/MatCap Shaders/Textures/Creator/MC Backlit 2.png using Guid(e490af91a9f72504b87e28701a1425af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a54c3941f6060350c9173bcf59282d1') in 0.018173 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/JMO Assets/MatCap Shaders/Textures/Creator/MC Additive 1.png
+  artifactKey: Guid(4a2220c954a7264459efb3be35445157) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JMO Assets/MatCap Shaders/Textures/Creator/MC Additive 1.png using Guid(4a2220c954a7264459efb3be35445157) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de408964876f69c5d893c0edf083bcab') in 0.016460 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.117302 seconds.
+  path: Assets/JMO Assets/MatCap Shaders/Textures/Creator/MC Basic 2.png
+  artifactKey: Guid(4f560d178ce29474aa8099a72c40feb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JMO Assets/MatCap Shaders/Textures/Creator/MC Basic 2.png using Guid(4f560d178ce29474aa8099a72c40feb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c534cf2e63fc1664cdcb3dd53f76aa34') in 0.033825 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/JMO Assets/MatCap Shaders/Textures/Creator/MC Frontlit.png
+  artifactKey: Guid(be8f4eca082cf42439e1f8efe1eb3d5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JMO Assets/MatCap Shaders/Textures/Creator/MC Frontlit.png using Guid(be8f4eca082cf42439e1f8efe1eb3d5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b60ba3c8d46eae143e49e4788fa2946') in 0.018501 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/JMO Assets/MatCap Shaders/Textures/Creator/MC Cyan and Purple.png
+  artifactKey: Guid(66c5a6eef50c4524ca969773d4903be4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JMO Assets/MatCap Shaders/Textures/Creator/MC Cyan and Purple.png using Guid(66c5a6eef50c4524ca969773d4903be4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '110e040b79d1d03e14594fbe5b07f955') in 0.016899 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/JMO Assets/MatCap Shaders/Textures/Creator/MC Basic 3.png
+  artifactKey: Guid(25f8197ce96046f478b2322e6b45c090) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JMO Assets/MatCap Shaders/Textures/Creator/MC Basic 3.png using Guid(25f8197ce96046f478b2322e6b45c090) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04cf4ae1793c6de5e78fe779a6cf9817') in 0.037306 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.014890 seconds.
+  path: Assets/JMO Assets/MatCap Shaders/Textures/Creator/MC Metal Copper.png
+  artifactKey: Guid(382db576e3b678b4ea33e8a4b4647ec1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JMO Assets/MatCap Shaders/Textures/Creator/MC Metal Copper.png using Guid(382db576e3b678b4ea33e8a4b4647ec1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d471cdb712305cd9c1d3ca52b4dc77f') in 0.097138 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/JMO Assets/MatCap Shaders/Textures/Creator/MC Metallic Shiny.png
+  artifactKey: Guid(707658b05bb04cf46b37cd576917d084) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JMO Assets/MatCap Shaders/Textures/Creator/MC Metallic Shiny.png using Guid(707658b05bb04cf46b37cd576917d084) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7fc25d5dbcec6fd14ddc44a14034bf4a') in 0.040852 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/JMO Assets/MatCap Shaders/Textures/Creator/MC Metal Gold.png
+  artifactKey: Guid(05cb8fab23c8ef9429ebaf3150311a31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JMO Assets/MatCap Shaders/Textures/Creator/MC Metal Gold.png using Guid(05cb8fab23c8ef9429ebaf3150311a31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db3eb41e7920cbc7a7d77f07b4e755df') in 0.025755 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/JMO Assets/MatCap Shaders/Textures/Creator/MC Metal Silver.png
+  artifactKey: Guid(bf651ec0a540a5541acf02ef0c0d525d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JMO Assets/MatCap Shaders/Textures/Creator/MC Metal Silver.png using Guid(bf651ec0a540a5541acf02ef0c0d525d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c77406b3acff7dcf113800796f8036b6') in 0.038845 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/JMO Assets/MatCap Shaders/Textures/Creator/MC Red Highlight 2.png
+  artifactKey: Guid(89da13b6c5b2314479ce9f80edc02727) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JMO Assets/MatCap Shaders/Textures/Creator/MC Red Highlight 2.png using Guid(89da13b6c5b2314479ce9f80edc02727) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a6a7589800083652f8517c1e73f44d4') in 0.044605 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/JMO Assets/MatCap Shaders/Textures/Creator/MC Rainbow.png
+  artifactKey: Guid(cda2f2cd49bff5a4fa9d69729f6b393c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JMO Assets/MatCap Shaders/Textures/Creator/MC Rainbow.png using Guid(cda2f2cd49bff5a4fa9d69729f6b393c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c8b82a7c88bf92dd9aa27b3153aa3e0') in 0.030655 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/JMO Assets/MatCap Shaders/Textures/Creator/MC Metallic Rough.png
+  artifactKey: Guid(dc03136440dee8845a1b4d55a54fef70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JMO Assets/MatCap Shaders/Textures/Creator/MC Metallic Rough.png using Guid(dc03136440dee8845a1b4d55a54fef70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6a3f7068e7e246ae872832cefba5c66') in 0.042498 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/JMO Assets/MatCap Shaders/Textures/Creator/MC Red Highlight.png
+  artifactKey: Guid(766f99fe9d13b8244aa914a9edf9224a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JMO Assets/MatCap Shaders/Textures/Creator/MC Red Highlight.png using Guid(766f99fe9d13b8244aa914a9edf9224a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1021624c0f607fd9705d191ca4b48fd8') in 0.043175 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/JMO Assets/MatCap Shaders/Textures/Creator/MC Orange and Teal.png
+  artifactKey: Guid(ef309140cf1453b4b93171004e4bd179) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JMO Assets/MatCap Shaders/Textures/Creator/MC Orange and Teal.png using Guid(ef309140cf1453b4b93171004e4bd179) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a6aa9c227440b984f4b5007ef469e18') in 0.037721 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/JMO Assets/MatCap Shaders/Textures/Creator/MC Reflection.png
+  artifactKey: Guid(b3cb059a9f88e9b42b7df11e48963196) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JMO Assets/MatCap Shaders/Textures/Creator/MC Reflection.png using Guid(b3cb059a9f88e9b42b7df11e48963196) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b9b945e28db22ac659d350381ca3bcb') in 0.024872 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/JMO Assets/MatCap Shaders/Demo/Assets/MC_Demo_Shadow.png
+  artifactKey: Guid(428706618c1f8d045a2067b44814a56e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JMO Assets/MatCap Shaders/Demo/Assets/MC_Demo_Shadow.png using Guid(428706618c1f8d045a2067b44814a56e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a80c186c4fe17fc71f826453a56732b6') in 0.016869 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/JMO Assets/MatCap Shaders/Demo/Assets/Robot Kyle/Robot_Bump.png
+  artifactKey: Guid(c3212145c8d80af4eb8f7ad1495d3200) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JMO Assets/MatCap Shaders/Demo/Assets/Robot Kyle/Robot_Bump.png using Guid(c3212145c8d80af4eb8f7ad1495d3200) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1bbc5683ef26b34c4510294e1f13ade8') in 0.042855 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/JMO Assets/MatCap Shaders/Textures/Creator/MC Metallic Shiny Orange.png
+  artifactKey: Guid(904a7bba824ee0c418826440aa824947) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JMO Assets/MatCap Shaders/Textures/Creator/MC Metallic Shiny Orange.png using Guid(904a7bba824ee0c418826440aa824947) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a02e049940ba1960385ea6f5380b2c7') in 0.034185 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/JMO Assets/MatCap Shaders/Textures/Creator/MC Orange and Teal 2.png
+  artifactKey: Guid(83aa404d4631efd44a53cbc98427bf1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JMO Assets/MatCap Shaders/Textures/Creator/MC Orange and Teal 2.png using Guid(83aa404d4631efd44a53cbc98427bf1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5dc88abbbc4a5771498a8812ef06a3f7') in 0.023980 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/JMO Assets/MatCap Shaders/Creator/Assets/MC_RenderTexture.renderTexture
+  artifactKey: Guid(489bf18ce21e9f54c8cfd155cba17ffc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JMO Assets/MatCap Shaders/Creator/Assets/MC_RenderTexture.renderTexture using Guid(489bf18ce21e9f54c8cfd155cba17ffc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f374d971478b36b01436e85a3f39860') in 0.022020 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/JMO Assets/MatCap Shaders/Textures/Creator/MC Metallic Rough Orange.png
+  artifactKey: Guid(1c6b0e9805d2a104fb8e0e4f8e15322e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JMO Assets/MatCap Shaders/Textures/Creator/MC Metallic Rough Orange.png using Guid(1c6b0e9805d2a104fb8e0e4f8e15322e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8c6e1eb216b55fc82b8d6cf2dcffec9') in 0.016419 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000118 seconds.
+  path: Assets/JMO Assets/MatCap Shaders/Textures/Creator/MC Rainbow Shiny.png
+  artifactKey: Guid(7b2d79b5fdab0ee408373030bc867629) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JMO Assets/MatCap Shaders/Textures/Creator/MC Rainbow Shiny.png using Guid(7b2d79b5fdab0ee408373030bc867629) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e38e0dd5cf1146c4720cec0a3f88196c') in 0.033725 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/JMO Assets/MatCap Shaders/Textures/Creator/MC Reflection 2.png
+  artifactKey: Guid(a814fd27b523f734eb59ae2adb93a8c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JMO Assets/MatCap Shaders/Textures/Creator/MC Reflection 2.png using Guid(a814fd27b523f734eb59ae2adb93a8c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1771732d892ce06be1679efc0c3cb16') in 0.041388 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.811440 seconds.
+  path: Assets/JMO Assets/MatCap Shaders/Demo/Assets/Robot Kyle/Robot_Color.png
+  artifactKey: Guid(7f5077d68b405ce45a95a2638a373656) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JMO Assets/MatCap Shaders/Demo/Assets/Robot Kyle/Robot_Color.png using Guid(7f5077d68b405ce45a95a2638a373656) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f059146f4ed09af956e15846a25213cc') in 0.056580 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.014640 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\lucas\OneDrive\Documentos\Projetos Unity Notebook\shadow-valley-ggj22\Shadow Valley\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\lucas\OneDrive\Documentos\Projetos Unity Notebook\shadow-valley-ggj22\Shadow Valley\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.32 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.744 seconds
+Domain Reload Profiling:
+	ReloadAssembly (3745ms)
+		BeginReloadAssembly (218ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (53ms)
+		EndReloadAssembly (3373ms)
+			LoadAssemblies (156ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (1081ms)
+			ReleaseScriptCaches (6ms)
+			RebuildScriptCaches (109ms)
+			SetupLoadedEditorAssemblies (1448ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (37ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (181ms)
+				ProcessInitializeOnLoadAttributes (991ms)
+				ProcessInitializeOnLoadMethodAttributes (208ms)
+				AfterProcessingInitializeOnLoad (28ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (99ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 3.50 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4811 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 36 unused Assets / (1.0 MB). Loaded Objects now: 6367.
+Memory consumption went from 247.7 MB to 246.7 MB.
+Total: 17.222700 ms (FindLiveObjects: 4.943900 ms CreateObjectMapping: 1.388000 ms MarkObjects: 10.092700 ms  DeleteObjects: 0.795100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.014232 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\lucas\OneDrive\Documentos\Projetos Unity Notebook\shadow-valley-ggj22\Shadow Valley\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\lucas\OneDrive\Documentos\Projetos Unity Notebook\shadow-valley-ggj22\Shadow Valley\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.21 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.081 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2082ms)
+		BeginReloadAssembly (344ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (16ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (52ms)
+		EndReloadAssembly (1559ms)
+			LoadAssemblies (269ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (494ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (54ms)
+			SetupLoadedEditorAssemblies (749ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (22ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (155ms)
+				ProcessInitializeOnLoadAttributes (467ms)
+				ProcessInitializeOnLoadMethodAttributes (90ms)
+				AfterProcessingInitializeOnLoad (14ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (52ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.88 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4743 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 28 unused Assets / (309.8 KB). Loaded Objects now: 6366.
+Memory consumption went from 244.2 MB to 243.9 MB.
+Total: 6.978300 ms (FindLiveObjects: 0.880300 ms CreateObjectMapping: 0.538800 ms MarkObjects: 5.372100 ms  DeleteObjects: 0.184500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 990.313388 seconds.
+  path: Assets/Materials/Includes
+  artifactKey: Guid(7ccb8cabcddacb3438e228070d27e929) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Includes using Guid(7ccb8cabcddacb3438e228070d27e929) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '464f407d887d7aea05ec494b8c88e003') in 0.020986 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 39.547912 seconds.
+  path: Assets/Materials/CelTeste.mat
+  artifactKey: Guid(b946e03c7ee8ffb48a80d6534abc7143) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/CelTeste.mat using Guid(b946e03c7ee8ffb48a80d6534abc7143) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09216674cd67540a5f5099d7e5c126a3') in 0.333725 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.897819 seconds.
+  path: Assets/Materials/CelTest.mat
+  artifactKey: Guid(b946e03c7ee8ffb48a80d6534abc7143) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/CelTest.mat using Guid(b946e03c7ee8ffb48a80d6534abc7143) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05a0b949e31174044319d106e5e1f2b3') in 0.058985 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 217.771030 seconds.
+  path: Assets/CelShading.asset
+  artifactKey: Guid(6d8088dd6a3a04a4f9fb5563fdec1c2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CelShading.asset using Guid(6d8088dd6a3a04a4f9fb5563fdec1c2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '611d5f831b6d77a10d979412dc68bb36') in 0.333099 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 14.943562 seconds.
+  path: Assets/Unity.VisualScripting.Generated/VisualScripting.Flow
+  artifactKey: Guid(ef26583909882e44b9ac071d6433bd11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity.VisualScripting.Generated/VisualScripting.Flow using Guid(ef26583909882e44b9ac071d6433bd11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf893474f5ab87de78f84dc978aecac1') in 0.019120 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 23.932564 seconds.
+  path: Assets/Shaders
+  artifactKey: Guid(93395950f979fac47aecdff3485d65db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders using Guid(93395950f979fac47aecdff3485d65db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '990bc2f83d935e1d2dc4ad63f5d90219') in 0.006884 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 13.673700 seconds.
+  path: Assets/Shaders/CelShader.shader
+  artifactKey: Guid(9f52f5d7e581e504baeaeea3a146010b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/CelShader.shader using Guid(9f52f5d7e581e504baeaeea3a146010b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ede97380c7d295d33f95b6c300a49df') in 0.010718 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 26.922771 seconds.
+  path: Assets/Shaders/CelSHading.shadergraph
+  artifactKey: Guid(f99a34cc7fea6a2418479b6ff6050290) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/CelSHading.shadergraph using Guid(f99a34cc7fea6a2418479b6ff6050290) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df19a002abbbcf1e48b30fb66b40694d') in 0.022749 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.447073 seconds.
+  path: Assets/Shaders/CelShading.shadergraph
+  artifactKey: Guid(f99a34cc7fea6a2418479b6ff6050290) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/CelShading.shadergraph using Guid(f99a34cc7fea6a2418479b6ff6050290) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ae09abbe3910071e0337561e7f2bc47') in 0.015319 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 160.270284 seconds.
+  path: Assets/Shaders/CelShading.shadergraph
+  artifactKey: Guid(f99a34cc7fea6a2418479b6ff6050290) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/CelShading.shadergraph using Guid(f99a34cc7fea6a2418479b6ff6050290) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3a91a713a8031a6cb5c84d993ba0a0f') in 0.083917 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 315.999064 seconds.
+  path: Assets/Shaders/Includes/Lighting.hlsl
+  artifactKey: Guid(6e563375b820e4545b8fea6a62be9f5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/Includes/Lighting.hlsl using Guid(6e563375b820e4545b8fea6a62be9f5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ca25eca01009211c682a2d72a6370a8') in 0.016098 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 139.629241 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMPro.cginc
+  artifactKey: Guid(407bc68d299748449bbf7f48ee690f8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Shaders/TMPro.cginc using Guid(407bc68d299748449bbf7f48ee690f8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46d900f418e88ebb47cabc4156455da9') in 0.069797 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMPro_Surface.cginc
+  artifactKey: Guid(d930090c0cd643c7b55f19a38538c162) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Shaders/TMPro_Surface.cginc using Guid(d930090c0cd643c7b55f19a38538c162) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c2c94e5c9b9a05e97b22174e2959c84') in 0.050742 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMPro_Properties.cginc
+  artifactKey: Guid(3997e2241185407d80309a82f9148466) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Shaders/TMPro_Properties.cginc using Guid(3997e2241185407d80309a82f9148466) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '100de2ba2da263f2b066e50d47bff469') in 0.053880 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMPro_Mobile.cginc
+  artifactKey: Guid(c334973cef89a9840b0b0c507e0377ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Shaders/TMPro_Mobile.cginc using Guid(c334973cef89a9840b0b0c507e0377ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '813be9876ce871083baf22ddd510ea72') in 0.056608 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 261.936024 seconds.
+  path: Assets/Shaders/SubGraphs
+  artifactKey: Guid(d4c285cdd09f08643a4085b518462078) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/SubGraphs using Guid(d4c285cdd09f08643a4085b518462078) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ffb1dbefd2c1c622ccdeabc543436bd') in 0.010754 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 229.123724 seconds.
+  path: Assets/Shaders/Textures
+  artifactKey: Guid(0e7b460c5d7d70141b3a0c3bfbac97a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/Textures using Guid(0e7b460c5d7d70141b3a0c3bfbac97a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6c8da2f14f0aadd4d1ce51e7e4d7f7f') in 0.013205 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 485.841240 seconds.
+  path: Assets/Shaders/Textures/RampCel.png
+  artifactKey: Guid(290b5f58fb097c34abb93591fc599bbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/Textures/RampCel.png using Guid(290b5f58fb097c34abb93591fc599bbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '588a28846562aa87c99776fa85bb99a5') in 0.115245 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 134.170395 seconds.
+  path: Assets/Shaders/SubGraphs/CalculateLights.shadersubgraph
+  artifactKey: Guid(3611139bcd09b9b4bb62529c1ed5aabb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/SubGraphs/CalculateLights.shadersubgraph using Guid(3611139bcd09b9b4bb62529c1ed5aabb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6978a21428468be51c62cc8f9a591d0d') in 0.020647 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 126.570882 seconds.
+  path: Assets/Shaders/SubGraphs/CalculateLights.shadersubgraph
+  artifactKey: Guid(3611139bcd09b9b4bb62529c1ed5aabb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/SubGraphs/CalculateLights.shadersubgraph using Guid(3611139bcd09b9b4bb62529c1ed5aabb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c6e74db7a83f92581a4c9ae92e983b4') in 0.007241 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 176.145039 seconds.
+  path: Assets/Shaders/SubGraphs/CalculateLightingRamp.shadersubgraph
+  artifactKey: Guid(3d6d572b26529b54385fe3bc54a1fd26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/SubGraphs/CalculateLightingRamp.shadersubgraph using Guid(3d6d572b26529b54385fe3bc54a1fd26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e736d83ed8fef22eb150a72ffaebca51') in 0.016029 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 381.558188 seconds.
+  path: Assets/Shaders/SubGraphs/CalculateLightingRamp.shadersubgraph
+  artifactKey: Guid(3d6d572b26529b54385fe3bc54a1fd26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/SubGraphs/CalculateLightingRamp.shadersubgraph using Guid(3d6d572b26529b54385fe3bc54a1fd26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '375a2ef8fa1eb76589f040694287ee9b') in 0.006766 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 29.411102 seconds.
+  path: Assets/Materials/CelTest.mat
+  artifactKey: Guid(b946e03c7ee8ffb48a80d6534abc7143) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/CelTest.mat using Guid(b946e03c7ee8ffb48a80d6534abc7143) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31860381df677067c4e8f204ab3642ee') in 1.189188 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 388.018524 seconds.
+  path: Assets/Shaders/Includes/Lighting.hlsl
+  artifactKey: Guid(6e563375b820e4545b8fea6a62be9f5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/Includes/Lighting.hlsl using Guid(6e563375b820e4545b8fea6a62be9f5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3999523208b9d8b45969dec3696690cd') in 0.058904 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.013511 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\lucas\OneDrive\Documentos\Projetos Unity Notebook\shadow-valley-ggj22\Shadow Valley\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\lucas\OneDrive\Documentos\Projetos Unity Notebook\shadow-valley-ggj22\Shadow Valley\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 2.84 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  8.447 seconds
+Domain Reload Profiling:
+	ReloadAssembly (8449ms)
+		BeginReloadAssembly (482ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (63ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (211ms)
+		EndReloadAssembly (7802ms)
+			LoadAssemblies (288ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (2232ms)
+			ReleaseScriptCaches (5ms)
+			RebuildScriptCaches (347ms)
+			SetupLoadedEditorAssemblies (3629ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (71ms)
+				SetLoadedEditorAssemblies (10ms)
+				RefreshPlugins (3ms)
+				BeforeProcessingInitializeOnLoad (619ms)
+				ProcessInitializeOnLoadAttributes (2296ms)
+				ProcessInitializeOnLoadMethodAttributes (560ms)
+				AfterProcessingInitializeOnLoad (69ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (475ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.61 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4747 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 25 unused Assets / (309.8 KB). Loaded Objects now: 6429.
+Memory consumption went from 245.7 MB to 245.4 MB.
+Total: 8.370000 ms (FindLiveObjects: 0.905500 ms CreateObjectMapping: 0.676500 ms MarkObjects: 6.685200 ms  DeleteObjects: 0.100100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.011647 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\lucas\OneDrive\Documentos\Projetos Unity Notebook\shadow-valley-ggj22\Shadow Valley\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\lucas\OneDrive\Documentos\Projetos Unity Notebook\shadow-valley-ggj22\Shadow Valley\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.43 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.499 seconds
+Domain Reload Profiling:
+	ReloadAssembly (3500ms)
+		BeginReloadAssembly (236ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (17ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (58ms)
+		EndReloadAssembly (3106ms)
+			LoadAssemblies (151ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (1159ms)
+			ReleaseScriptCaches (7ms)
+			RebuildScriptCaches (231ms)
+			SetupLoadedEditorAssemblies (1146ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (48ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (197ms)
+				ProcessInitializeOnLoadAttributes (777ms)
+				ProcessInitializeOnLoadMethodAttributes (108ms)
+				AfterProcessingInitializeOnLoad (13ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (67ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.02 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4743 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 25 unused Assets / (309.8 KB). Loaded Objects now: 6431.
+Memory consumption went from 245.3 MB to 245.0 MB.
+Total: 13.030500 ms (FindLiveObjects: 0.799000 ms CreateObjectMapping: 0.840700 ms MarkObjects: 11.226700 ms  DeleteObjects: 0.161500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 505.628350 seconds.
+  path: Assets/Materials/CelTest.mat
+  artifactKey: Guid(b946e03c7ee8ffb48a80d6534abc7143) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/CelTest.mat using Guid(b946e03c7ee8ffb48a80d6534abc7143) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4fd3ec554bfe7b8b7048c713067b526a') in 1.315122 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.211554 seconds.
+  path: Assets/Materials/Reflexive.mat
+  artifactKey: Guid(5af32a8bdc27d384ca9a8fbeec779562) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Reflexive.mat using Guid(5af32a8bdc27d384ca9a8fbeec779562) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6219f4657272a007d99c4c9e1310d44f') in 0.047117 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.011043 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\lucas\OneDrive\Documentos\Projetos Unity Notebook\shadow-valley-ggj22\Shadow Valley\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\lucas\OneDrive\Documentos\Projetos Unity Notebook\shadow-valley-ggj22\Shadow Valley\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.94 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.213 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2222ms)
+		BeginReloadAssembly (239ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (28ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (70ms)
+		EndReloadAssembly (1797ms)
+			LoadAssemblies (135ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (854ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (61ms)
+			SetupLoadedEditorAssemblies (641ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (16ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (111ms)
+				ProcessInitializeOnLoadAttributes (409ms)
+				ProcessInitializeOnLoadMethodAttributes (90ms)
+				AfterProcessingInitializeOnLoad (13ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (55ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.53 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4743 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 25 unused Assets / (309.9 KB). Loaded Objects now: 6474.
+Memory consumption went from 245.6 MB to 245.3 MB.
+Total: 11.251300 ms (FindLiveObjects: 1.094700 ms CreateObjectMapping: 0.920100 ms MarkObjects: 9.115700 ms  DeleteObjects: 0.119600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
