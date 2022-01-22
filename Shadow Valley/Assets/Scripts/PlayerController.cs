@@ -32,7 +32,7 @@ public class PlayerController : MonoBehaviour
         isGrounded = false;
     }
 
-    void Update()
+    void FixedUpdate()
     {
 
         float horizontalInput = Input.GetAxis("Horizontal");
