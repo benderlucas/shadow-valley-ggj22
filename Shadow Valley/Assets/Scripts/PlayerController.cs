@@ -7,14 +7,16 @@ public class PlayerController : MonoBehaviour
     public float speed;
     public float rotationSpeed;
     Vector3 jump;
-    public float jumpForce = 2.0f;
-    bool isGrounded;
+    public float jumpForce;
+    public bool isGrounded;
     Rigidbody rb;
+    public Animator anim;
     public GameObject Controller;
 
     void Start(){
         rb = GetComponent<Rigidbody>();
         jump = new Vector3(0, jumpForce, 0);
+        anim = GetComponentInChildren<Animator>();
     }
 
     void OnCollisionStay(){
@@ -35,6 +37,8 @@ public class PlayerController : MonoBehaviour
     void FixedUpdate()
     {
 
+        anim = GetComponentInChildren<Animator>();
+
         float horizontalInput = Input.GetAxis("Horizontal");
 
         Vector3 movementDirection = new Vector3(horizontalInput, 0, 0);
@@ -51,9 +55,17 @@ public class PlayerController : MonoBehaviour
         if(Input.GetKeyDown(KeyCode.Space) && isGrounded){
             Jump();
         }
+
+        if(horizontalInput == 0){
+            anim.SetBool("isWalking",false);
+        } else {
+            anim.SetBool("isWalking",true);
+        }
+
     }
 
     void Jump(){
         rb.AddForce(jump * jumpForce, ForceMode.Impulse);
+        anim.SetTrigger("isJumping");
     }
 }
