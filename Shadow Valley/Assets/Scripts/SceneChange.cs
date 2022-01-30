@@ -7,6 +7,7 @@ public class SceneChange : MonoBehaviour
     public bool sceneAliveActive = true;
     public GameObject[] AliveBob;
     public GameObject[] DeadBob;
+    public GameObject PlayerGroup;
 
     void Update()
     {
@@ -23,6 +24,9 @@ public class SceneChange : MonoBehaviour
     }
 
     void AliveBobActive(){
+            PlayerGroup.GetComponent<Rigidbody>().isKinematic = false;
+            PlayerGroup.GetComponent<Rigidbody>().useGravity = true;
+            PlayerGroup.GetComponent<PlayerController>().jumpForce = 2.4f;
             foreach(GameObject obj in AliveBob) {
                 obj.SetActive(true);
             }
@@ -32,6 +36,10 @@ public class SceneChange : MonoBehaviour
     }
 
     void DeadBobActive(){
+        PlayerGroup.GetComponent<Rigidbody>().isKinematic = true;
+        PlayerGroup.GetComponent<Rigidbody>().useGravity = false;
+        PlayerGroup.GetComponent<PlayerController>().jumpForce = 0f;
+        PlayerGroup.GetComponent<PlayerController>().isGrounded = false;
             foreach(GameObject obj in AliveBob) {
                 obj.SetActive(false);
             }
