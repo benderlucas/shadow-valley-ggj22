@@ -41,8 +41,12 @@ public class GameStates : MonoBehaviour
     }
 
     public void GameOver(){
-        GameOverScreen.SetActive(true);
-        Time.timeScale = 0;
+        if (this.GetComponent<SceneChange>().sceneAliveActive){
+            GameOverScreen.SetActive(true);
+            Time.timeScale = 0;
+        } else {
+            return;
+        }
     }
 
     public void ResetGame(){

@@ -5,8 +5,9 @@ using UnityEngine.UI;
 
 public class LifeSystem : MonoBehaviour
 {
-    public int maxLife;
-    public int actualLife;
+    public float maxLife;
+    public float actualLife;
+    public int intLife;
     public GameObject LifeBar;
     public GameObject LifeText;
 
@@ -20,7 +21,8 @@ public class LifeSystem : MonoBehaviour
     void Update()
     {
         LifeBar.GetComponent<Slider>().value = actualLife;
-        LifeText.GetComponent<TMPro.TextMeshProUGUI>().text = actualLife.ToString();
+        intLife = Mathf.RoundToInt(actualLife);
+        LifeText.GetComponent<TMPro.TextMeshProUGUI>().text = intLife.ToString();
 
         if(actualLife <= 0){
             LifeText.GetComponent<TMPro.TextMeshProUGUI>().text = "0";

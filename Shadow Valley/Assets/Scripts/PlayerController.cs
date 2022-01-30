@@ -27,20 +27,28 @@ public class PlayerController : MonoBehaviour
 
     private void OnTriggerEnter(Collider col) {
         if(col.gameObject.tag == "Coin"){
+            if(Controller.GetComponent<SceneChange>().sceneAliveActive){
             Controller.GetComponent<MoneySystem>().actualMoney = Controller.GetComponent<MoneySystem>().actualMoney + col.GetComponent<CoinValue>().value;
             Destroy(col.gameObject);
+            } else {
+                return;
+            }
         }
 
         if(col.gameObject.tag == "Collectable"){
-            GameObject NewIcon = new GameObject();
-            Image NewImage = NewIcon.AddComponent<Image>();
-            NewImage.sprite = col.GetComponent<Image>().sprite;
-            NewIcon.GetComponent<RectTransform>().SetParent(ItemsPanel.transform);
-            NewIcon.name = col.name;
-            NewIcon.SetActive(true); 
-            Destroy(col.gameObject);
-            if(col.gameObject.name == "Escada"){
-                hasStairs = true;
+            if(Controller.GetComponent<SceneChange>().sceneAliveActive){
+                GameObject NewIcon = new GameObject();
+                Image NewImage = NewIcon.AddComponent<Image>();
+                NewImage.sprite = col.GetComponent<Image>().sprite;
+                NewIcon.GetComponent<RectTransform>().SetParent(ItemsPanel.transform);
+                NewIcon.name = col.name;
+                NewIcon.SetActive(true); 
+                Destroy(col.gameObject);
+                if(col.gameObject.name == "Escada"){
+                    hasStairs = true;
+                }
+            } else {
+                return;
             }
         }
     }
@@ -62,6 +70,7 @@ public class PlayerController : MonoBehaviour
                     stairs.SetActive(true);
                     if(stairs.active = true){
                         col.gameObject.SetActive(false);
+                        hasStairs = false;
                     }
                 }
             }

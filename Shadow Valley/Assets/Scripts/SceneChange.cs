@@ -8,6 +8,7 @@ public class SceneChange : MonoBehaviour
     public GameObject[] AliveBob;
     public GameObject[] DeadBob;
     public GameObject PlayerGroup;
+    public float lossLife;
 
     void Update()
     {
@@ -21,6 +22,10 @@ public class SceneChange : MonoBehaviour
         } else {
             DeadBobActive();
         }
+
+        if (GetComponent<LifeSystem>().actualLife > 0 && !sceneAliveActive){
+                GetComponent<LifeSystem>().actualLife = GetComponent<LifeSystem>().actualLife - lossLife * Time.deltaTime;
+            }
     }
 
     void AliveBobActive(){
